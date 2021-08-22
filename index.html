@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("concrete-road.jpg");
+    background-position: center;
+    background-size: cover;
+    cursor: crosshair;
+   
+}
+#myCanvas
+{
+	border-width:10px;
+	border-style:ridge;
+    border-color:crimson;
+    background-color: white;
+}
+
+h1,h3,h4
+{
+	color: white !important;
+}
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Car Parking Simulator [BETA]</title>
+</head>
+<body onload="add();">
+
+<center>
+<h1>Car Parking Simulator [BETA 1.1]</h1>
+<h3>Move the green car with arrow keys</h3>
+<h4>
+	<b class="text-danger">NOTE : </b> IF CAR IS NOT VISIBLE PRESS ANY ARROW KEY
+</h4>
+
+	<canvas id="myCanvas" height="600" width="600"></canvas>
+
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
